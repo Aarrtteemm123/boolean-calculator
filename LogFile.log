@@ -1,0 +1,180 @@
+мар 07, 2019 4:12:57 PM sample.Main start
+INFO: Import library
+мар 07, 2019 4:12:58 PM sample.Main start
+INFO: Import package
+мар 07, 2019 4:12:58 PM sample.Main start
+INFO: Create logger
+мар 07, 2019 4:12:58 PM sample.Main start
+INFO: Project start
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize but false
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize but true
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  textFieldFirstOperand
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  textFieldSecondOperand
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  textFieldResult
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonConstF 
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonB
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize buttonNotOrAB
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonNotA
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonAnd
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonAndBNotA
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonAEqualsB
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonImplicationAB
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonOr
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonA
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonNotB 
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonNotAndAB
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonAndANotB
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonXor
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  buttonImplicationBA
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize buttonConstT
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  radioButtonFirstOperand
+мар 07, 2019 4:12:58 PM sample.Controller initialize
+INFO: initialize  radioButtonSecondOperand
+мар 07, 2019 4:12:58 PM sample.Main start
+INFO: load fxml
+мар 07, 2019 4:12:58 PM sample.Main start
+INFO: Import package
+мар 07, 2019 4:12:58 PM sample.Main start
+INFO: load image
+мар 07, 2019 4:12:58 PM sample.Main start
+INFO: set image
+мар 07, 2019 4:12:58 PM sample.Main start
+INFO: load scene
+мар 07, 2019 4:12:59 PM sample.Main start
+INFO: show scene
+мар 07, 2019 4:13:00 PM sample.Controller clickButtonDeleteSecondOperand
+INFO:  clickButtonDeleteSecondOperand
+мар 07, 2019 4:13:00 PM sample.Controller clickButtonDeleteFirstOperand
+INFO: clickButtonDeleteFirstOperand
+мар 07, 2019 4:13:01 PM sample.Controller clickRadioButtonFirstOperand
+INFO: clickRadioButtonFirstOperand 1
+мар 07, 2019 4:13:01 PM sample.Controller clickRadioButtonFirstOperand
+INFO: clickRadioButtonFirstOperand 2
+мар 07, 2019 4:13:01 PM sample.Controller clickButtonTrue
+INFO: clickButtonTrue 2
+мар 07, 2019 4:13:02 PM sample.Controller clickRadioButtonSecondOperand
+INFO: clickRadioButtonSecondOperand 1
+мар 07, 2019 4:13:02 PM sample.Controller clickRadioButtonSecondOperand
+INFO: clickRadioButtonSecondOperand 2
+мар 07, 2019 4:13:02 PM sample.Controller clickButtonFalse
+INFO:  clickButtonFalse 1
+мар 07, 2019 4:13:03 PM sample.Controller clickButtonConstF
+INFO: clickButtonConstF
+мар 07, 2019 4:13:03 PM sample.Controller clickButtonConstF
+INFO: set text false
+мар 07, 2019 4:13:03 PM sample.Controller toBoolean
+INFO: Equals str to true
+мар 07, 2019 4:13:03 PM sample.Controller toBoolean
+INFO: Equals str to false
+мар 07, 2019 4:13:03 PM sample.LogicOperation and
+INFO: Use and
+мар 07, 2019 4:13:03 PM sample.LogicOperation and
+INFO: return false
+мар 07, 2019 4:13:03 PM sample.LogicOperation toStringValue
+INFO: Use toStringValue
+мар 07, 2019 4:13:03 PM sample.LogicOperation toStringValue
+INFO: return False
+мар 07, 2019 4:13:03 PM sample.Controller clickButtonAnd
+INFO: clickButtonAnd 3
+мар 07, 2019 4:13:03 PM sample.Controller clickButtonConstT
+INFO: clickButtonConstT
+мар 07, 2019 4:13:03 PM sample.Controller clickButtonConstT
+INFO: set text true
+мар 07, 2019 4:13:04 PM sample.Controller toBoolean
+INFO: Equals str to true
+мар 07, 2019 4:13:04 PM sample.Controller toBoolean
+INFO: Equals str to false
+мар 07, 2019 4:13:04 PM sample.LogicOperation andANotB
+INFO: Use andANotB
+мар 07, 2019 4:13:04 PM sample.LogicOperation andANotB
+INFO: return true
+мар 07, 2019 4:13:04 PM sample.LogicOperation toStringValue
+INFO: Use toStringValue
+мар 07, 2019 4:13:04 PM sample.LogicOperation toStringValue
+INFO: return True
+мар 07, 2019 4:13:04 PM sample.Controller clickButtonAndANotB
+INFO: clickButtonAndANotB 2
+мар 07, 2019 4:13:04 PM sample.Controller clickButtonB
+INFO: clickButtonB 2
+мар 07, 2019 4:13:04 PM sample.Controller toBoolean
+INFO: Equals str to true
+мар 07, 2019 4:13:04 PM sample.Controller toBoolean
+INFO: Equals str to false
+мар 07, 2019 4:13:04 PM sample.LogicOperation notOrAB
+INFO: Use notOrAB
+мар 07, 2019 4:13:04 PM sample.LogicOperation or
+INFO: Use or
+мар 07, 2019 4:13:04 PM sample.LogicOperation or
+INFO: return true
+мар 07, 2019 4:13:04 PM sample.LogicOperation toStringValue
+INFO: Use toStringValue
+мар 07, 2019 4:13:04 PM sample.LogicOperation toStringValue
+INFO: return False
+мар 07, 2019 4:13:04 PM sample.Controller clickButtonNotOrAB
+INFO: clickButtonNotOrAB 4
+мар 07, 2019 4:13:05 PM sample.Controller toBoolean
+INFO: Equals str to true
+мар 07, 2019 4:13:05 PM sample.Controller toBoolean
+INFO: Equals str to false
+мар 07, 2019 4:13:05 PM sample.LogicOperation implicationAB
+INFO: Use implicationAB
+мар 07, 2019 4:13:05 PM sample.LogicOperation implicationAB
+INFO: return false
+мар 07, 2019 4:13:05 PM sample.LogicOperation toStringValue
+INFO: Use toStringValue
+мар 07, 2019 4:13:05 PM sample.LogicOperation toStringValue
+INFO: return False
+мар 07, 2019 4:13:05 PM sample.Controller clickButtonImplicationAB
+INFO: clickButtonImplicationAB 2
+мар 07, 2019 4:13:06 PM sample.Controller toBoolean
+INFO: Equals str to false
+мар 07, 2019 4:13:06 PM sample.LogicOperation notX
+INFO: Use notX
+мар 07, 2019 4:13:06 PM sample.LogicOperation notX
+INFO: return !x
+мар 07, 2019 4:13:06 PM sample.LogicOperation toStringValue
+INFO: Use toStringValue
+мар 07, 2019 4:13:06 PM sample.LogicOperation toStringValue
+INFO: return True
+мар 07, 2019 4:13:06 PM sample.Controller clickButtonNotB
+INFO:  clickButtonNotB 1
+мар 07, 2019 4:13:06 PM sample.Controller toBoolean
+INFO: Equals str to true
+мар 07, 2019 4:13:06 PM sample.Controller toBoolean
+INFO: Equals str to false
+мар 07, 2019 4:13:06 PM sample.LogicOperation AEqualsB
+INFO: Use AEqualsB
+мар 07, 2019 4:13:06 PM sample.LogicOperation xOr
+INFO: Use xOr
+мар 07, 2019 4:13:06 PM sample.LogicOperation xOr
+INFO: return true
+мар 07, 2019 4:13:06 PM sample.LogicOperation toStringValue
+INFO: Use toStringValue
+мар 07, 2019 4:13:06 PM sample.LogicOperation toStringValue
+INFO: return False
+мар 07, 2019 4:13:06 PM sample.Controller clickButtonAEqualsB
+INFO: Set text AEqualsB
+мар 07, 2019 4:13:06 PM sample.Controller clickButtonA
+INFO: 1 operand set text2

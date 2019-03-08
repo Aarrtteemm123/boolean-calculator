@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="496.0" prefWidth="460.0">
+         <children>
+            <Button fx:id="buttonFalse" layoutX="42.0" layoutY="194.0" mnemonicParsing="false" onAction="#clickButtonFalse" text="False" />
+            <Button fx:id="buttonTrue" layoutX="42.0" layoutY="145.0" mnemonicParsing="false" onAction="#clickButtonTrue" prefHeight="31.0" prefWidth="53.0" text="True" />
+            <TextField fx:id="textFieldFirstOperand" editable="false" layoutX="18.0" layoutY="78.0" prefHeight="31.0" prefWidth="125.0" />
+            <TextField fx:id="textFieldSecondOperand" editable="false" layoutX="160.0" layoutY="78.0" prefHeight="31.0" prefWidth="125.0" />
+            <TextField fx:id="textFieldResult" editable="false" layoutX="343.0" layoutY="78.0" prefHeight="31.0" prefWidth="102.0" />
+            <Button fx:id="buttonConstF" layoutX="142.0" layoutY="258.0" mnemonicParsing="false" onAction="#clickButtonConstF" prefHeight="31.0" prefWidth="79.0" text="ConstF">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonB" layoutX="142.0" layoutY="314.0" mnemonicParsing="false" onAction="#clickButtonB" prefHeight="31.0" prefWidth="79.0" text="X2">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonNotOrAB" layoutX="142.0" layoutY="364.0" mnemonicParsing="false" onAction="#clickButtonNotOrAB" prefHeight="31.0" prefWidth="79.0" text="!(X1vX2)">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonNotA" layoutX="142.0" layoutY="414.0" mnemonicParsing="false" onAction="#clickButtonNotA" prefHeight="31.0" prefWidth="79.0" text="!X1">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonAnd" layoutX="245.0" layoutY="258.0" mnemonicParsing="false" onAction="#clickButtonAnd" prefHeight="31.0" prefWidth="79.0" text="X1^X2">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonAndBNotA" layoutX="246.0" layoutY="313.0" mnemonicParsing="false" onAction="#clickButtonAndBNotA" prefHeight="31.0" prefWidth="79.0" text="!X1^X2">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonAEqualsB" layoutX="246.0" layoutY="364.0" mnemonicParsing="false" onAction="#clickButtonAEqualsB" prefHeight="31.0" prefWidth="79.0" text="X1=X2">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonImplicationAB" layoutX="245.0" layoutY="414.0" mnemonicParsing="false" onAction="#clickButtonImplicationAB" prefHeight="31.0" prefWidth="79.0" text="X1-&gt;X2">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonOr" layoutX="353.0" layoutY="258.0" mnemonicParsing="false" onAction="#clickButtonOr" prefHeight="31.0" prefWidth="79.0" text="X1vX2">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonA" layoutX="353.0" layoutY="313.0" mnemonicParsing="false" onAction="#clickButtonA" prefHeight="31.0" prefWidth="79.0" text="X1">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonNotB" layoutX="353.0" layoutY="364.0" mnemonicParsing="false" onAction="#clickButtonNotB" prefHeight="31.0" prefWidth="79.0" text="!X2">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonNotAndAB" layoutX="353.0" layoutY="414.0" mnemonicParsing="false" onAction="#clickButtonNotAndAB" text="!(X1^X2)">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonAndANotB" layoutX="42.0" layoutY="314.0" mnemonicParsing="false" onAction="#clickButtonAndANotB" prefHeight="31.0" prefWidth="79.0" text="X1^!X2">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonXor" layoutX="42.0" layoutY="364.0" mnemonicParsing="false" onAction="#clickButtonXor" prefHeight="31.0" prefWidth="79.0" text="X1(+)X2">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonImplicationBA" layoutX="42.0" layoutY="414.0" mnemonicParsing="false" onAction="#clickButtonImplicationBA" prefHeight="31.0" prefWidth="79.0" text="X2-&gt;X1">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonConstT" layoutX="42.0" layoutY="258.0" mnemonicParsing="false" onAction="#clickButtonConstT" prefHeight="31.0" prefWidth="79.0" text="ConstT">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="radioButtonFirstOperand" layoutX="120.0" layoutY="153.0" mnemonicParsing="false" onAction="#clickRadioButtonFirstOperand" text="First operand" />
+            <RadioButton fx:id="radioButtonSecondOperand" layoutX="120.0" layoutY="199.0" mnemonicParsing="false" onAction="#clickRadioButtonSecondOperand" text="Second operand" />
+            <Label layoutX="35.0" layoutY="33.0" text="First operant">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="167.0" layoutY="33.0" text="Second operant">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="374.0" layoutY="33.0" text="Result">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonFirstOperand" layoutX="271.0" layoutY="148.0" mnemonicParsing="false" onAction="#clickButtonDeleteFirstOperand" prefHeight="21.0" prefWidth="28.0" />
+            <Button fx:id="buttonSecondOperand" layoutX="271.0" layoutY="194.0" mnemonicParsing="false" onAction="#clickButtonDeleteSecondOperand" prefHeight="31.0" prefWidth="28.0" />
+            <ImageView disable="true" fitHeight="21.0" fitWidth="20.0" layoutX="275.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@delete.png" />
+               </image>
+            </ImageView>
+            <ImageView disable="true" fitHeight="21.0" fitWidth="20.0" layoutX="276.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@delete.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
